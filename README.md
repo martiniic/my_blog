@@ -1,2 +1,2 @@
-# my_blog
+# martiniic's Personal Blog
 My personal blog.
