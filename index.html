@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Metadata -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Feed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- HTML for Body -->
+<body>
+    <div class="layout">
+        <!-- HTML for Sidebar -->
+        <div class="sidebar">
+            <h1 class="name">Cassidy Martin, Esq.</h1>
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="nav-buttons">
+                <div class="nav-item">All Posts</div>
+                <div class="nav-item">Favorites</div>
+                <div class="nav-item">Recent</div>
+                <div class="nav-item">Older</div>
+            </div>
+        </div>
+
+        <!-- HTML for Post Container -->
+        <div class="content">
+            <div class="container">
+                <h1 class="title">My News Feed</h1>
+                <form id="postForm">
+                    <textarea id="postContent" placeholder="Write something..." required></textarea>
+                    <button type="submit">Post</button>
+                </form>
+                <div id="feed"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Get JS script -->
+    <script src="script.js"></script>
+</body>
+
+<!-- HTML for Footer -->
+<footer>
+
+</footer>
+
+</html>
