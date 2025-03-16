@@ -17,6 +17,27 @@ body {
     height: 100vh;
 }
 
+/* Alumni Sans Pinstripe */
+.alumni-sans-pinstripe-regular {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.alumni-sans-pinstripe-regular-italic {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Emily's Candy */
+.emilys-candy-regular {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
 /************* Styles for Sidebar *************/
 
 .sidebar {
@@ -25,22 +46,30 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 40px;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    padding: 2vw 0vw 2vw 10vw;
+    margin-left: 10vw;
+
 }
 
 .name {
     color: #ff0081;
-    margin-top: 50px;
-    font-size: 45px;
+    font-size: 50px;
+    padding-left: 2.5vw;
+    padding-top: 0.9vw;
 }
 
 .profile-pic {
-    width: 15vw;
-    height: 15vw;
+    width: 8vw;
+    height: 8vw;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid white;
-    margin: 10px auto 50px auto;
+    margin-left: -6vw;
 }
 
 .nav-buttons {
@@ -48,14 +77,13 @@ body {
     flex-direction: column;
     width: 50%;
     align-items: stretch;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 25px;
 }
 
 .nav-item {
     width: 100%;
     background-color: #ff48a5;
-    padding: 10px;
+    padding: 7px;
     text-align: center;
     margin: 5px 0;
     cursor: pointer;
@@ -117,7 +145,8 @@ body {
 
 .title {
     color: #ff0081;
-    padding-bottom: 30px;
+    font-size: 45px;
+    margin-top: 10px;
 }
 
 form {
@@ -133,7 +162,7 @@ textarea {
     padding: 10px; /* Adds space inside the textbox */
     box-sizing: border-box; /* Ensures padding doesn’t affect width/height */
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 button {
@@ -141,12 +170,11 @@ button {
     border: 2px solid white;
     border-radius: 30px;
     color: white;
-    padding: 10px;
+    padding: 5px 0 5px 0;
     cursor: pointer;
-    width: 25%;
+    width: 15%;
     margin: 10px auto 60px auto;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 25px;
 }
 
 button:hover {
@@ -156,16 +184,17 @@ button:hover {
 #feed {
     margin-top: 40px;
     width: 80%;
-    margin: 10px auto 10px auto;
-    font-size: 18px;
+    margin: auto;
 }
 
 /************* Styles for Posts *************/
 
 .post {
     background: #fff;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 1px 20px 12px 20px;
+    margin-top: 15px;
     box-shadow: 0px 0px 5px gray;
     border-radius: 5px;
+    font-size: 20px;
+    text-align: left;
 }

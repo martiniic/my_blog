@@ -7,15 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Feed</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Emilys+Candy&display=swap" rel="stylesheet">
+
 </head>
 
 <!-- HTML for Body -->
 <body>
     <div class="layout">
         <!-- HTML for Sidebar -->
-        <div class="sidebar">
-            <h1 class="name">Cassidy Martin, Esq.</h1>
-            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="sidebar alumni-sans-pinstripe-regular">
+            <!-- Header Container -->
+            <div class="header-container">
+                <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+                <h1 class="name">Cassidy Martin, Esq.</h1>
+            </div>
             
             <div class="nav-buttons">
                 <div class="nav-item">All Posts</div>
@@ -40,12 +49,12 @@
         <!-- HTML for Post Container -->
         <div class="content">
             <div class="container">
-                <h1 class="title">My News Feed</h1>
-                <form id="postForm">
-                    <textarea id="postContent" placeholder="Write something..." required></textarea>
-                    <button type="submit">Post</button>
+                <h1 class="title alumni-sans-pinstripe-regular">My News Feed</h1>
+                <form id="postForm" class="emilys-candy-regular">
+                    <textarea id="postContent" class="emilys-candy-regular" placeholder="Write something..." required></textarea>
+                    <button class="alumni-sans-pinstripe-regular" type="submit">Post</button>
                 </form>
-                <div id="feed"></div>
+                <div id="feed" class="emilys-candy-regular"></div>
             </div>
         </div>
     </div>
