@@ -16,11 +16,24 @@
         <div class="sidebar">
             <h1 class="name">Cassidy Martin, Esq.</h1>
             <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            
             <div class="nav-buttons">
                 <div class="nav-item">All Posts</div>
                 <div class="nav-item">Favorites</div>
                 <div class="nav-item">Recent</div>
-                <div class="nav-item">Older</div>
+                <div class="nav-item">Archives</div>
+
+                <!-- Collapsible Categories Section -->
+                <div class="collapsible-container">
+                    <div class="collapsible-header nav-item" onclick="toggleCategories()">Categories ▼</div>
+                    <div class="collapsible-content">
+                        <div class="nav-item collapsable">Personal</div>
+                        <div class="nav-item collapsable">Politics</div>
+                        <div class="nav-item collapsable">To Do's</div>
+                        <div class="nav-item collapsable">Photos</div>
+                        <div class="nav-item collapsable">Misc.</div>
+                    </div>
+                </div>
             </div>
         </div>
 
